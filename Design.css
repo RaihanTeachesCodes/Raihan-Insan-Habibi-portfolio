@@ -1,0 +1,113 @@
+  /*display edit zone*/
+
+  body { background-image: url("raihan_resource/raihan_home_back.jpg"); background-repeat: no-repeat;}
+
+  .profile_pic {display: inline-block; padding-left: 11.5%; ;}
+
+  .button_class {display: inline-block; float:right; align-items:center; margin-top: -8%; animation: fading; animation-duration: 5s; position: sticky;}
+
+
+  center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding-top: 2%;
+      overflow: hidden;
+      position: -webkit-sticky; /* Safari */
+      text-align: right;
+      top: 0;
+    }
+    
+    li {
+      float: right;
+      padding-right:2% ;
+      padding: 1%;
+  
+    }
+    
+    li a {
+      font-family: "times new roman";
+      font-size: large;
+      display: block;
+      color: white;
+      padding:15;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: rgb(230, 230, 230);
+      -webkit-border-radius: 50px;
+      border-radius: 50px;
+      border-color:white;
+      color:black;
+    }
+    
+    .active {
+      background-color: #4CAF50;
+    }
+  
+    /*animation zone*/
+   
+  
+    /*####################################################################################################*/
+  
+    .ess{
+      position: relative;
+      animation-name: example;
+      animation-duration: 2s;
+    }
+  
+    .ess > img {
+      padding-top: 2%;  
+      margin-top: auto;
+      display: inline-block;
+      margin-left:60%;
+      margin-top: -15%;
+    }
+    /*####################################################################################################*/
+  
+    /*####################################################################################################*/
+  
+  
+    .development{
+      position: relative;
+      animation-name: example;
+      animation-duration: 5s;
+    }
+  
+    .development > img {
+      display: inline-block;
+      margin-left:60%;
+      margin-top: -10%;
+
+    }
+    /*####################################################################################################*/
+  
+  
+    
+    @keyframes example {
+      0%   {left:2000px; top:0px;}
+      100%  {left:0px; top:0px;}
+    }
+  
+    @keyframes example_up {
+      0%   {left:0px; top: 2000px;}
+      100%  {left:0px; top:0px;}
+    }
+  
+    @keyframes logo_animation1 {
+      0%   {left:0px; top:-50px;}
+      100%  {left:-2000px; top: -10px;}
+    }
+
+    @keyframes fading {
+      0%   {opacity: 0;}
+      100% {opacity: 1;}
+    }
+  
+  
